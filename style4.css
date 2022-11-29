@@ -85,40 +85,133 @@ body > main > section:nth-of-type(2) > h2 {
     position:absolute;
     top:2em;
     left:27em;
+    width:6em;
 }
 body > main > section:nth-of-type(2) > p:first-of-type {
     position:absolute;
-    top:10em;
+    top:12em;
     left:15em;
     height:5em;
-    width:15em;
+    width:25em;
 }
 body > main > section:nth-of-type(2) > p:nth-of-type(2) {
     position:absolute;
-    top:10em;
+    top:25em;
     left:15em;
     height:5em;
-    width:15em;
+    width:25em;
 }
 body > main > section:nth-of-type(2) > p:nth-of-type(3) {
     position:absolute;
-    top:20em;
+    top:12em;
     left:45em;
     height:5em;
-    width:15em;
+    width:25em;
 }
 body > main > section:nth-of-type(2) > p:last-of-type {
     position:absolute;
-    top:20em;
+    top:25em;
     left:45em;
     height:5em;
-    width:15em;
+    width:25em;
 }
 body > main > section:nth-of-type(3){
     height: 50em;
+    width:100%;
     background-color:#0b6ccd;
     position:absolute;
     top:100em;
+}
+body > main > section:nth-of-type(3) > h2:first-of-type {
+    color:#ffffff;
+    position:absolute;
+    font-size:2em;
+    top:2.5em;
+    left:18em;
+}
+body > main > section:nth-of-type(3) > section:first-of-type {
+    background-color:#ffffff;
+    position:absolute;
+    top:15em;
+    left:15em;
+    height:15em;
+    width:15em;
+    border-radius:5px;
+    text-align:center;
+}
+body > main > section:nth-of-type(3) > section:first-of-type > h3:first-of-type {
+    background-image: url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/code.jpeg);
+    background-size: cover;
+    margin:0;
+    padding-top:25px;
+    padding-bottom:0px;
+    color:#ffffff;
+    height:3em;
+    text-align:center;
+    width:12.8em;
+    border-radius:5px 5px 0 0;
+    
+}
+body > main > section:nth-of-type(3) > section:nth-of-type(2) {
+    background-color:#ffffff;
+    position:absolute;
+    top:15em;
+    left:35em;
+    height:15em;
+    width:15em;
+    border-radius:5px;
+    text-align:center;
+    
+}
+body > main > section:nth-of-type(3) > section:nth-of-type(2) > h3:first-of-type {
+    background-image: url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/design.jpeg);
+    background-size: cover;
+    margin:0;
+    padding-top:25px;
+    padding-bottom:0px;
+    color:#ffffff;
+    height:3em;
+    text-align:center;
+    width:12.8em;
+    border-radius:5px 5px 0 0;
+    
+}
+body > main > section:nth-of-type(3) > section:last-of-type {
+    background-color:#ffffff;
+    position:absolute;
+    top:15em;
+    left:55em;
+    height:15em;
+    width:15em;
+    border-radius:5px;
+    text-align:center;
+}
+body > main > section:nth-of-type(3) > section:last-of-type > p:first-of-type {
+    padding:5px;
+    text-align:center;
+    
+}
+body > main > section:nth-of-type(3) > section:nth-of-type(2) > p:first-of-type {
+    padding:5px;
+    text-align:center;
+    
+}
+body > main > section:nth-of-type(3) > section:first-of-type > p:first-of-type {
+    padding:5px;
+    text-align:center;
+    
+}
+body > main > section:nth-of-type(3) > section:last-of-type > h3:first-of-type {
+    background-image: url(	https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/management.jpeg);
+    margin:0;
+    padding-top:25px;
+    padding-bottom:0px;
+    color:#ffffff;
+    height:3em;
+    text-align:center;
+    width:12.8em;
+    border-radius:5px 5px 0 0;
+    
 }
 body > main > section:last-of-type{
     height: 50em;
@@ -132,3 +225,92 @@ body > footer {
     position:absolute;
     top:200em;
 }
+body > main > section:last-of-type > section:first-of-type > header{
+    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
+    background-size: cover;
+    margin:0;
+    padding:0;
+    height:13em;
+    width:12.8em;
+    font-size:11px;
+}
+body > main > section:last-of-type > section:nth-of-type(2) >header{
+    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
+    background-size: cover;
+    margin:0;
+    padding:0;
+    height:13em;
+    width:12.8em;
+    font-size:11px;
+}
+    
+body > main > section:last-of-type > section:nth-of-type(3) >header{
+    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
+    background-size: cover;
+    margin:0;
+    padding:0;
+    height:13em;
+    width:12.8em;
+    font-size:11px;
+}
+body > main > section:last-of-type > section:last-of-type >header {
+    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
+    background-size: cover;
+    margin:0;
+    padding:0;
+    height:13em;
+    width:12.8em;
+    font-size:11px;
+}
+
+body > main > section:last-of-type > section:first-of-type {
+    position:absolute;
+    top:15em;
+    left:10em;
+    height:25em;
+    width:15em;
+    border-radius:15px;
+    text-align:center;
+    border: 1px solid #1e5d62;
+}
+
+body > main > section:last-of-type > section:nth-of-type(2) {
+    position:absolute;
+    top:15em;
+    left:30em;
+    height:25em;
+    width:18em;
+    border-radius:15px;
+    text-align:center;
+    border: 1px solid #1e5d62;
+}
+
+body > main > section:last-of-type > section:nth-of-type(3) {
+    position:absolute;
+    top:15em;
+    left:50em;
+    height:25em;
+    width:18em;
+    border-radius:15px;
+    text-align:center;
+    border: 1px solid #1e5d62;
+}
+			
+body > main > section:last-of-type > section:last-of-type {
+    position:absolute;
+    top:15em;
+    left:75em;
+    height:25em;
+    width:18em;
+    border-radius:15px;
+    text-align:center;
+    border: 1px solid #1e5d62;
+}
+	
+
+
+
+
+
+
+
