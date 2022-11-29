@@ -12,13 +12,20 @@ body > header {
     width:100%;
     margin:0;
     padding:0;
+    position: fixed;
+    z-index: 1000;
+    
+    
+}
+body > header > nav > ul {
+    list-style:none;
 }
 body > header > nav > ul > li:first-of-type {
     
     position:absolute;
     top:1em;
     left:30em;
-    
+   
 }
 body > header > nav > ul > li:nth-of-type(2) {
  
@@ -219,56 +226,26 @@ body > main > section:last-of-type{
     position:absolute;
     top:150em;
 }
-body > footer {
-    height: 50em;
-    background-color:#326584;
-    position:absolute;
-    top:200em;
+
+body > main > section:last-of-type > section > header{
+    text-align:center;
 }
-body > main > section:last-of-type > section:first-of-type > header{
-    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
-    background-size: cover;
-    margin:0;
-    padding:0;
-    height:13em;
-    width:12.8em;
-    font-size:11px;
+body > main > section:last-of-type > section > p > span{
+    color:#1e5d62;
 }
-body > main > section:last-of-type > section:nth-of-type(2) >header{
-    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
-    background-size: cover;
-    margin:0;
-    padding:0;
-    height:13em;
-    width:12.8em;
-    font-size:11px;
+body > main > section:last-of-type > section > p {
+    padding:5px;
+    color:#000000;
 }
-    
-body > main > section:last-of-type > section:nth-of-type(3) >header{
-    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
-    background-size: cover;
-    margin:0;
-    padding:0;
-    height:13em;
-    width:12.8em;
-    font-size:11px;
-}
-body > main > section:last-of-type > section:last-of-type >header {
-    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
-    background-size: cover;
-    margin:0;
-    padding:0;
-    height:13em;
-    width:12.8em;
-    font-size:11px;
-}
+
+
 
 body > main > section:last-of-type > section:first-of-type {
     position:absolute;
     top:15em;
     left:10em;
     height:25em;
-    width:15em;
+    width:18em;
     border-radius:15px;
     text-align:center;
     border: 1px solid #1e5d62;
@@ -299,14 +276,81 @@ body > main > section:last-of-type > section:nth-of-type(3) {
 body > main > section:last-of-type > section:last-of-type {
     position:absolute;
     top:15em;
-    left:75em;
+    left:70em;
     height:25em;
     width:18em;
     border-radius:15px;
     text-align:center;
     border: 1px solid #1e5d62;
 }
-	
+body > main > section:last-of-type {
+    font-family: 'Bitter', serif;
+    font-weight:bold;
+}
+body > main > section:last-of-type > h2:first-of-type {
+    font-size:2.6em;
+    position:absolute;
+    top:1.4em;
+    left:16em;
+    font-family: 'Bitter', serif;
+}
+body > footer {
+    height: 50em;
+    background-color:#326584;
+    position:absolute;
+    top:200em;
+    width:100%;
+}
+body > footer > section:first-of-type {
+    height:50em;
+    width:50%;
+    position:absolute;
+    top:12em;
+    left:20em;
+    
+}
+body > footer > section:last-of-type {
+    height:26em;
+    width:50%;
+    position:absolute;
+    top:10em;
+    left:43em;
+    border-left:1px solid;
+    padding:2em;
+    
+}	
+body > footer > h2:first-of-type {
+    position:absolute;
+    top:3em;
+    left:25em;
+    color:#ffffff;
+}
+body > footer {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+body > footer > section:last-of-type > form
+> input {
+    background-color:#c5d4de;
+    border-radius:2px;
+    border:none;
+    font-size:25px;
+}
+body > footer > section:last-of-type > form
+> input[type='textarea']{
+    height:80px;
+}
+body > footer > section:last-of-type > form
+> input[type='submit'] {
+    background-color:#ffffff;
+    color:#326584;
+    border-radius:2px;
+    border:none;
+    font-size:15px;
+    padding:5px;
+    height:25px;
+    width:120px;
+}
 
 
 
